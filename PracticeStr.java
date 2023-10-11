@@ -14,8 +14,10 @@ public class PracticeStr
 		System.out.println(s5);
 		int x=s1.lastIndexOf("y");
 		System.out.println(x);
-		int y = s2.lastIndexOf("t");
+		int y = s2.lastIndexOf("o");
 		System.out.println(y);
+		String ss=s2.substring(0,y);
+		System.out.println(ss);
 		String s6 = s4.concat(s5);
 		System.out.println(s6);
 		int x1= s4.compareTo(s5);
@@ -29,22 +31,22 @@ public class PracticeStr
 		}
 	}
 	public void reverse()
-		{
-			String r="  ";
-			for(int i=0;i<=st.length()-1;i++)
+	{
+		String r="  ";
+		for(int i=0;i<=st.length()-1;i++)
 			{
 				char ns=st.charAt(i);
 				r= ns+r;
 			}
-				System.out.println("The reverse string is :"+r);
+		System.out.println("The reverse string is :"+r);
 			
-		}
+	}
 	public int addition1(int d,int e)
-		{
-			int f = d+e;
-			System.out.println("The addition is : " +f);
-			return f;
-		}
+	{
+		int f = d+e;
+		System.out.println("The addition is : " +f);
+		return f;
+	}
 	public void trycatch()
 	{
 		try
